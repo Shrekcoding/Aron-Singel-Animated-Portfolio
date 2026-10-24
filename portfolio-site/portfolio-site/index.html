@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aron Singel — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav id="nav"><div class="wrap">
+  <a class="logo" href="#hero"><b>Aron</b> Singel</a>
+  <div class="links" id="links">
+    <a href="#hero">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </div>
+  <button class="icon" id="burger" aria-label="Menu" style="position:relative;z-index:50">☰</button>
+</div></nav>
+
+<section id="hero" class="hero"><canvas id="sky"></canvas><div class="moon"></div><div class="wrap">
+  <h1><span class="fi">Hi, I'm</span> <span class="fi d1" style="color:var(--p)">Aron</span> <span class="fi d2 grad">Singel</span></h1>
+  <p class="fi d3">I create stellar web experiences with modern technologies. Specializing in front-end development, I build interfaces that are both beautiful and functional.</p>
+  <div class="fi d4"><a class="btn" href="#projects">View My Work</a></div>
+</div>
+<svg class="hills" viewBox="0 0 1440 300" preserveAspectRatio="none" aria-hidden="true">
+<path d="M0 220 L120 150 L220 200 L360 110 L480 190 L600 130 L760 215 L900 120 L1040 195 L1180 140 L1300 200 L1440 150 V300 H0Z" fill="#1b2d5a" fill-opacity=".6"/>
+<path d="M0 260 L160 190 L300 245 L470 160 L620 250 L800 175 L960 255 L1120 185 L1280 250 L1440 205 V300 H0Z" fill="#0f1c3d" fill-opacity=".9"/>
+<path d="M0 285 L200 235 L340 275 L560 225 L760 280 L980 230 L1180 278 L1330 245 L1440 270 V300 H0Z" style="fill:var(--land0)"/>
+</svg>
+<div class="scroll">Scroll<br>↓</div></section>
+<section id="about"><div class="sea" aria-hidden="true"><div class="ray" style="left:4%"></div><div class="ray" style="left:28%;animation-delay:-3s;animation-duration:11s"></div><div class="ray" style="left:54%;animation-delay:-6s"></div><div class="ray" style="left:80%;animation-delay:-2s;animation-duration:12s"></div></div><div class="wrap">
+  <h2 class="rv">About <span>Me</span></h2>
+  <div class="two rv" style="margin-top:46px">
+    <div>
+      <h3>Passionate Web Developer &amp; Tech Creator</h3>
+      <p>Replace this with your own story: how long you've been building, what you specialize in, and the kind of problems you love solving.</p>
+      <p>I'm passionate about elegant solutions to complex problems and constantly learning new techniques to stay at the forefront of the web.</p>
+      <div class="row"><a class="btn" href="#contact">Get In Touch</a><a class="btn o" href="#">Download CV</a></div>
+    </div>
+    <div class="stack">
+      <div class="glass item"><i>&lt;/&gt;</i><div><h4>Web Development</h4><p>Responsive websites and web apps built with modern frameworks.</p></div></div>
+      <div class="glass item"><i>✦</i><div><h4>UI/UX Design</h4><p>Intuitive interfaces and seamless user experiences.</p></div></div>
+      <div class="glass item"><i>✎</i><div><h4>Graphic Designer</h4><p>Creating custom graphics for clients, from logos and branding to social media visuals and print layouts.</p></div></div>
+    </div>
+  </div>
+</div></section>
+<div id="land">
+<section id="skills" class="banded"><div class="swamp" aria-hidden="true"><div class="fog" style="top:12%"></div><div class="fog" style="top:48%;animation-delay:-12s;animation-duration:34s"></div><div class="fog" style="top:78%;animation-delay:-20s"></div>
+<svg class="pond" viewBox="0 0 340 80"><ellipse cx="170" cy="48" rx="160" ry="26" fill="#0b2a24" fill-opacity=".75"/><ellipse cx="170" cy="48" rx="160" ry="26" fill="none" stroke="#7fe0b0" stroke-opacity=".25"/>
+<ellipse class="rip" cx="110" cy="50" rx="10" ry="3" fill="none" stroke="#bff" stroke-opacity=".6"/><ellipse class="rip" cx="250" cy="46" rx="10" ry="3" fill="none" stroke="#bff" stroke-opacity=".6" style="animation-delay:-1.4s"/><ellipse class="rip" cx="175" cy="58" rx="10" ry="3" fill="none" stroke="#bff" stroke-opacity=".6" style="animation-delay:-2.7s"/>
+<g class="pad"><ellipse cx="120" cy="54" rx="17" ry="6" fill="#3f9d5a"/><path d="M120 54 L136 51 L135 56Z" fill="#0b2a24"/></g><g class="pad" style="animation-delay:-2s"><ellipse cx="258" cy="56" rx="14" ry="5" fill="#35874e"/><path d="M258 56 L271 54 L270 58Z" fill="#0b2a24"/></g>
+<g class="pad" style="animation-delay:-1s"><ellipse cx="205" cy="45" rx="23" ry="7" fill="#46ad62"/><path d="M205 45 L226 41 L224 47Z" fill="#0b2a24"/></g>
+<g class="frog"><ellipse cx="205" cy="36" rx="10" ry="6.5" fill="#7bd96d"/><circle class="eye" cx="200" cy="30" r="2.6" fill="#7bd96d"/><circle class="eye" cx="210" cy="30" r="2.6" fill="#7bd96d"/><circle class="eye" cx="200" cy="30" r="1.1" fill="#04120d"/><circle class="eye" cx="210" cy="30" r="1.1" fill="#04120d"/></g></svg></div><div class="wrap">
+  <h2 class="rv">My <span>Skills</span></h2><div class="tabs" id="tabs"></div><div class="grid" id="skillGrid"></div>
+</div></section>
+
+<section id="projects"><div class="scene" aria-hidden="true"><div class="csky"></div><div class="cglow"></div><div class="cl" style="top:16%;animation-delay:-20s"></div><div class="cl" style="top:30%;width:340px;animation-duration:120s;animation-delay:-70s"></div></div><div class="wrap">
+  <h2 class="rv">Featured <span>Projects</span></h2>
+  <p class="sub rv">A few recent projects, crafted with attention to detail, performance and user experience.</p>
+  <div class="tabs" id="ptabs"></div>
+  <div class="grid" id="projGrid"></div>
+  <div style="text-align:center;margin-top:46px" id="ghBtn"><a class="btn" href="https://github.com/Shrekcoding" target="_blank" rel="noopener">Check My Github →</a></div>
+  <div class="lb" id="lb"><button class="icon" aria-label="Close">✕</button><figure><img alt=""><figcaption></figcaption></figure></div>
+</div></section>
+
+<section id="contact" class="banded"><div class="scene" aria-hidden="true"><div class="asky"></div></div><div class="wrap">
+  <h2 class="rv">Get In <span>Touch</span></h2>
+  <p class="sub rv">Have a project in mind or want to collaborate? Feel free to reach out.</p>
+  <div class="two rv" style="align-items:start">
+    <div class="cinfo">
+      <h3 style="margin:0">Contact Information</h3>
+      <div class="item"><i>✉</i><div><h4>Email</h4><a href="mailto:aron.singel@verizon.net">aron.singel@verizon.net</a></div></div>
+      <div class="item"><i>☎</i><div><h4>Phone</h4><a href="tel:+17034341581">703-434-1581</a></div></div>
+      <div class="item"><i>⌖</i><div><h4>Location</h4><span>Elizabethtown, PA</span></div></div>
+      <div><h4 style="margin:0 0 10px">Connect With Me</h4><div class="row" style="margin:0"><a class="btn o" href="https://www.linkedin.com/in/aron-singel-720b333a7/" target="_blank" rel="noopener">LinkedIn</a><a class="btn o" href="https://github.com/Shrekcoding" target="_blank" rel="noopener">GitHub</a></div></div>
+    </div>
+    <form class="glass" id="form">
+      <h3 style="margin:0">Send a Message</h3>
+      <label>Your Name<input required placeholder="Your name"></label>
+      <label>Your Email<input type="email" required placeholder="you@example.com"></label>
+      <label>Your Message<textarea rows="5" required placeholder="Hello, I'd like to talk about…"></textarea></label>
+      <button class="btn" id="send" style="justify-content:center">Send Message ➤</button>
+    </form>
+  </div>
+</div></section>
+
+</div>
+<footer>
+<svg class="camp" viewBox="0 0 1440 340" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+<defs><radialGradient id="gl"><stop offset="0" stop-color="#ffb347" stop-opacity=".6"/><stop offset="1" stop-color="#ff8a2a" stop-opacity="0"/></radialGradient>
+<symbol id="pine" viewBox="0 0 60 150"><path d="M30 0L50 45H40L56 85H42L60 128H0L18 85H4L20 45H10Z"/><rect x="26" y="125" width="8" height="25"/></symbol></defs>
+<path d="M0 150 L140 90 L260 135 L420 60 L560 130 L720 85 L900 140 L1060 70 L1220 125 L1340 95 L1440 130 V340 H0Z" style="fill:var(--hill)"/>
+<use href="#pine" x="380" y="150" width="40" height="100" style="fill:var(--tree2)"/><use href="#pine" x="1020" y="140" width="44" height="110" style="fill:var(--tree2)"/>
+<path d="M0 250 Q360 222 720 244 T1440 236 V340 H0Z" style="fill:var(--ground)"/>
+<use href="#pine" x="-10" y="10" width="100" height="250" style="fill:var(--tree)"/><use href="#pine" x="70" y="80" width="70" height="175" style="fill:var(--tree2)"/><use href="#pine" x="130" y="-10" width="110" height="275" style="fill:var(--tree)"/><use href="#pine" x="230" y="105" width="60" height="150" style="fill:var(--tree2)"/>
+<use href="#pine" x="1130" y="105" width="60" height="150" style="fill:var(--tree2)"/><use href="#pine" x="1180" y="-5" width="110" height="275" style="fill:var(--tree)"/><use href="#pine" x="1270" y="60" width="80" height="200" style="fill:var(--tree2)"/><use href="#pine" x="1330" y="-30" width="120" height="300" style="fill:var(--tree)"/>
+<ellipse class="glow" cx="800" cy="268" rx="190" ry="70" fill="url(#gl)"/>
+<g transform="translate(560 190)"><path d="M0 72 L75 0 L150 72Z" fill="#d9703a"/><path d="M75 0 L150 72 H98Z" fill="#b85a2c"/><path d="M75 0 L52 72 H98Z" fill="#f3b362"/></g>
+<g transform="translate(800 268)"><rect x="-28" y="-4" width="56" height="8" rx="3" fill="#4a2a14" transform="rotate(14)"/><rect x="-28" y="-4" width="56" height="8" rx="3" fill="#5a3418" transform="rotate(-14)"/>
+<path class="fl" d="M0 0 C-16 -12 -12 -30 0 -52 C12 -30 16 -12 0 0Z" fill="#ff7a1a"/><path class="fl fl2" d="M0 0 C-9 -8 -7 -20 0 -34 C7 -20 9 -8 0 0Z" fill="#ffd25a"/></g>
+<circle class="ff" cx="300" cy="215" r="2"/><circle class="ff" cx="470" cy="200" r="2" style="animation-delay:-2s"/><circle class="ff" cx="930" cy="205" r="2" style="animation-delay:-4s"/><circle class="ff" cx="1080" cy="220" r="2" style="animation-delay:-1s"/><circle class="ff" cx="700" cy="180" r="2" style="animation-delay:-5s"/>
+</svg>
+<div class="fine">© 2026 Aron Singel. All rights reserved.</div></footer>
+<div class="glass toast" id="toast"><b>Almost there!</b><br><span style="color:var(--muted);font-size:.9rem">Your email app should open with the message ready. Just press send. If nothing opens, email aron.singel@verizon.net directly.</span></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
